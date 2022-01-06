@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.holder {
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #006837;
+}
+
+.pleasewrite {
+  font-weight: medium;
+  font-size: 16px;
+  max-width: 520px;
+  height: auto;
+  color: #467745;
+  background-color: #f9c582;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.writeyourpetname {
+  font-weight: medium;
+  font-size: 16px;
+  max-width: 480px;
+  height: 64px;
+  color: #98a991;
+}
+
+.buttton {
+  font-weight: bold;
+  font-size: 21px;
+  height: 120px;
+  width: 120px;
+  background-color: #f9c582;
+  color: #006837;
+  border-radius: 50%;
+  border: none;
+
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+@media only screen and (max-width: 520px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .pleasewrite {
+    width: 100%;
+  }
+
+  .writeyourpetname {
+    width: 100%-40px;
+  }
+}
